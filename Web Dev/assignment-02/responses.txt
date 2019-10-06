@@ -1,0 +1,7 @@
+Data travels through the internet in small packets with its IP attached, the packets ensure a much less error prone system and allow for quick rerouting to maximize speed and efficiency. Physically the packets of information are in binary and travel through cables, increasingly through fiber optics.
+
+IP addresses are the actual locations of devices like computers, servers, and even devices like cell phones and appliances, this is the language which identify each individual component from end to end including the pathways. DNS is the system of translation and acts as the bridge between a human being and the computer language. It allows a human being to type "umt.edu" and have access to that site, without having to know the IP addresses of every server, router, and computer between them and the information they need.
+
+A cookie is like a digital passkey, it allows the sites to effectively bring the correct content and settings to the individual user.
+
+The three basic parts of a URL are the protocol, domain, and the pathway.

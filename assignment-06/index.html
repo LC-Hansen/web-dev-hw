@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Second Edition Contact Info">
+    <meta name="author" content="Landon Hansen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 10px;
+    }
+    </style>
+    <title>Second Edition Contact Information</title>
+  </head>
+  <body>
+    <h1>Contact Information and Queries form:</h1>
+    <address>
+      112 S. Montana St<br>
+      Butte, MT 59701<br>
+      406-723-5108<br></address>
+    <a href="mailto: SecondEdition@bresnan.net">Email Second Edition</a>
+    <p>Hours of operation:</p>
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+        <th scope="col">Saturday</th>
+        <th scope="col">Sunday</th>
+      </tr>
+      <tr>
+        <th scope="row">Hours</th>
+        <td>9:00-5:30</td>
+        <td>9:00-5:30</td>
+        <td>9:00-5:30</td>
+        <td>9:00-5:30</td>
+        <td>9:00-5:30</td>
+        <td>9:00-5:30</td>
+        <td>Closed</td>
+    </table>
+    <br>
+    <form action="https://www.facebook.com/SecondEditionBooksButte" method="get"> <!-- I chose go use "get" instead of "post" because I couldn't link the form on my web page to the actual text box in chat on facebook messenger-->
+      <p>Is your question specific to Butte history?</p>
+    <input type="radio" name="buttespec" value="yes"/>Yes
+    <input type="radio" name="buttespec" value="no"/>No
+    <p>If it is not, what area will we be looking at?</p>
+    <select name="interestarea">
+      <option value="kids">Childrens</option>
+      <option value="hist">General History</option>
+      <option value="aca">Academic Resources</option>
+      <option value="fiction">Fiction</option>
+      <option value="nonfic">Non-Fiction</option>
+      <option value="art">Arts and Music</option></select>
+    <br>
+    <p>Leave a comment to let us know how we can make your experience better:</p>
+    <textarea name="querie" id="qtextarea" maxlength="250" col="8" row="4" placeholder="Enter up to 250 characters..."></textarea>
+    <input type="submit" name="submit" value="Submit">
+    </form>
+
+  </body>
+</html>
