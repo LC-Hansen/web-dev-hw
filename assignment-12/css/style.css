@@ -14,7 +14,7 @@ menu {
 }
 .menu-items{
   margin: .4em;
-  padding: .2em;
+  padding: .2em 2em;
   display: inline-block;
   min-width: 10em;
   text-align: center;
@@ -31,12 +31,9 @@ menu {
 .dropdown-items {
     display: none;
     position: absolute;
-    color: #4287f5;
-    background-color: #f7f9fa;
-    text-decoration: none;
     z-index: 4;
   }
-.nav:hover .dropdown-items a {
+.nav:hover .dropdown-items {
     display: block;
   }
 .main-container {
