@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Proza+Libre:600i,800i&display=swap');
+
+* {
+font-family: 'Proza Libre', sans-serif;
+}

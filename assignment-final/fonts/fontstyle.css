@@ -1,0 +1,49 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+font-family: 'Proza Libre';
+src: url('https://fonts.googleapis.com/css?family=Proza+Libre:600i,800i&display=swap') format('opentype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Open Sans';
+src: url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i&display=swap') format('opentype');
+font-weight: normal;
+font-style: normal;
+}
+
+#title {
+  text-align: right;
+}
+
+h1, h2, h3 {
+  font-family: 'Proza Libre', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+p::first-letter {
+  font-size: 2em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+a:link {
+  color: teal;
+}
+
+a:visited{
+  color: rgb(252,252,252);
+}
+
+a:hover {
+  color: magenta;
+}
