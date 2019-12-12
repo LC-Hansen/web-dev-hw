@@ -37,7 +37,7 @@ p {
 }
 
 a:link {
-  color: teal;
+  color: #f7f9fa;
 }
 
 a:visited{
@@ -45,5 +45,5 @@ a:visited{
 }
 
 a:hover {
-  color: magenta;
+  color: #4287f5;
 }
