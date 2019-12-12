@@ -23,6 +23,20 @@ menu {
   color: #f7f9fa;
 }
 
+
+/* THE DROPDOWN */
+.dropdown {
+  display: inline-block;
+}
+.dropdown:hover .dropdown-items {
+  display: block;
+  background-color: #f7f9fa;
+}
+.dropdown .menu-items {
+  display: block;
+}
+
+
 .nav:hover {
   color: #4287f5;
   background-color: #f7f9fa;
